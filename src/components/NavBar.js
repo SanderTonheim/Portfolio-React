@@ -1,11 +1,13 @@
+import { StyledNavBar } from '../styles/NavBar.Styled'
+
 export const NavBar = () => {
-  return (
-    <>
-      <ul>
-        <li>Hjem</li>
-        <li>Om</li>
-        <li>Prosjekter</li>
-      </ul>
-    </>
-  )
+	return (
+		<StyledNavBar>
+			<ul>
+				<li>Hjem</li>
+				<li>Om</li>
+				<li>Prosjekter</li>
+			</ul>
+		</StyledNavBar>
+	)
 }
