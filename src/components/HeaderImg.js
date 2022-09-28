@@ -3,7 +3,7 @@ import Image from '../assets/PortfolioPic1.jpg'
 export const HeaderImage = () => {
 	return (
 		<ImageContainer>
-			<img src={Image} />
+			<img src={Image} alt='' />
 		</ImageContainer>
 	)
 }
