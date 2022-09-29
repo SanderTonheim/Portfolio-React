@@ -1,6 +1,8 @@
 import { StyledHeaderContainer } from '../styles/Header.styled'
+import { BG } from './BG'
 import { HeaderImage } from './HeaderImg'
 import { HeaderText } from './HeaderText'
+
 export const Header = () => {
 	return (
 		<>
@@ -12,6 +14,7 @@ export const Header = () => {
 				<HeaderImage />
 				<HeaderText />
 			</StyledHeaderContainer>
+			<BG />
 		</>
 	)
 }
