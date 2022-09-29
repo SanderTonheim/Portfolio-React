@@ -1,3 +1,4 @@
+import { Experience } from './components/Experience'
 import { Header } from './components/Header'
 import { NavBar } from './components/NavBar'
 import { GlobalStyles } from './styles/GlobalStyles'
@@ -8,6 +9,7 @@ function App() {
 			<GlobalStyles />
 			<NavBar />
 			<Header />
+			<Experience />
 		</div>
 	)
 }
