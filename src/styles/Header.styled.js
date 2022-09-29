@@ -13,5 +13,4 @@ export const StyledHeaderContainer = styled.div`
 	h1 {
 		width: 100%;
 	}
-
 `

@@ -6,9 +6,8 @@ export const BGStyled = styled.div`
 	max-height: fit-content;
 
 	#flip {
-		transform: scaleX(-1);
-		transform: rotate(0.5turn);
-		/* translate: (0, -100); */
+		transform: scaleY(-1);
+		translate: (0, -100);
 		position: relative;
 		top: -5px;
 	}
