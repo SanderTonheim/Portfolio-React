@@ -17,6 +17,10 @@ body {
 	margin: 0px;
 	background-color: #1a1a24;
 	color:white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 2rem;
 }
 
 `
