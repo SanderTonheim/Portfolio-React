@@ -2,15 +2,14 @@ import styled from 'styled-components'
 
 export const WaveAnimation = styled.div`
 	.ocean {
-		height: 5%;
+		height: 5rem;
 		width: 100%;
 		position: relative;
 		background: #015871;
 	}
 
 	.wave {
-		background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg)
-			repeat-x;
+		background: url(../assets/experience-background.svg) repeat-x;
 		position: absolute;
 		top: -198px;
 		width: 6400px;
