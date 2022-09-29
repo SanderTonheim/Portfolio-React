@@ -3,6 +3,7 @@ import { Header } from './components/Header'
 import { NavBar } from './components/NavBar'
 import { GlobalStyles } from './styles/GlobalStyles'
 import { ExperienceSpacer } from './components/ExperienceSpacer'
+import { WaveSplitter } from './components/WaveSplitter'
 
 function App() {
 	return (
@@ -11,7 +12,7 @@ function App() {
 			<NavBar />
 			<Header />
 			<Experience />
-			<ExperienceSpacer />
+			<WaveSplitter />
 		</div>
 	)
 }
